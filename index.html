@@ -1,1 +1,30 @@
-
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toma de Pesos</title>
+</head>
+<body>
+    <div>
+        <h2>Weight</h2>
+        <div class="div1">
+            <input type="text" name="" id="textoreferencia" placeholder="Referencia">
+            <input type="number" name="" id="textopeso" placeholder="Pesos">
+            <input type="button" value="_SAVE__"onclick="save_weight()">
+        </div>
+        <br><br>
+        <div class="div2">
+            <input type="button" value="EXPORT_"onclick="export_weight()">
+            <input type="button" value="DELETE_"onclick="delete_weigh()">
+            <label for="">Dates: </label>
+            <label for="" id="numerodatos"></label>
+        </div>
+        <br>
+    </div>
+    <div class="div3">
+        <table id="tabladatospesos"></table>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
